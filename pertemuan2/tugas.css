@@ -1,0 +1,59 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+}
+
+#box{
+
+    width: 250px;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px; /* Padding untuk kotak header */
+}
+
+.header-box {
+    background-image: url('jajanz.jpg'); /* Ganti 'gambar-latar-belakang.jpg' dengan URL gambar yang Anda inginkan */
+    background-size: cover;
+    background-position: center;
+    padding: 50px; /* Padding untuk isi kotak header */
+}
+
+h1{
+    background-color: #F3DEBA;
+    padding: 150px;
+    font-style: italic;
+    font-size: 350%;
+}
+
+table{
+    width: 95%;
+    border-collapse: collapse;
+}
+
+th{
+    height: 60px;
+    background-color: #A9907E;
+    color: white;
+    font-family:sans-serif;
+}
+
+td{
+    height: auto;
+    text-align: center;
+}
+
+p.a{
+    text-align: center;
+}
+#footer{
+    background-color: #999494;
+    padding: 20px;
+}
