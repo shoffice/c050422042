@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Input Biodata</title>
+</head>
+<body>
+    <h2>Input Biodata</h2>
+    <table border = 0>        
+    <form id="form_text" name="form_text" method="POST" action="prosestugas1.php">
+        <!-- Form Input Type Text -->
+        <tr>
+            <td>NIM</td>
+            <td>: </td>
+            <td><input type = "text" name="nim" id="nim"/></td>
+        </tr>
+        <tr>
+            <td>Nama Lengkap</td>
+            <td>: </td>
+            <td><input type="text" name="nama" id="nama"/></td>
+        </tr>
+        <!-- Form Input Type Radio -->
+        <tr>
+            <td>Jurusan</td>
+            <td>: </td>
+            <td>
+                <input type="radio" name="jurusan" value="Teknik Sipil"> Teknik Sipil
+                <input type="radio" name="jurusan" value="Teknik Mesin"> Teknik Mesin
+                <input type="radio" name="jurusan" value="Teknik Elektro"> Teknik Elektro
+                <input type="radio" name="jurusan" value="Akuntansi"> Akuntansi
+                <input type="radio" name="jurusan" value="Administrasi Bisnis"> Administrasi Bisnis
+            </td>
+        </tr>
+        <!-- Form Input Type Text -->
+        <tr>
+            <td>Tempat dan Tanggal Lahir</td>
+            <td>: </td>
+            <!-- Form Input Type Combo Box -->
+            <td><input type="text" name="tempat" size="15">
+            <select name="tgl">
+                <option name = "tgl">1
+                <option name = "tgl">2
+                <option name = "tgl">3
+                <option name = "tgl">4
+                <option name = "tgl">5
+                <option name = "tgl">6
+                <option name = "tgl">7
+                <option name = "tgl">8
+                <option name = "tgl">9
+                <option name = "tgl">10
+                <option name = "tgl">11
+                <option name = "tgl">12
+                <option name = "tgl">13
+                <option name = "tgl">14
+                <option name = "tgl">15
+                <option name = "tgl">16
+                <option name = "tgl">17
+                <option name = "tgl">18
+                <option name = "tgl">19
+                <option name = "tgl">20
+                <option name = "tgl">21
+                <option name = "tgl">22
+                <option name = "tgl">23
+                <option name = "tgl">24
+                <option name = "tgl">25
+                <option name = "tgl">26
+                <option name = "tgl">27
+                <option name = "tgl">28
+                <option name = "tgl">29
+                <option name = "tgl">30
+                <option name = "tgl">31
+            </select>
+            <select name="bln">
+                <option name = "bln">Januari
+                <option name = "bln">Februari
+                <option name = "bln">Maret
+                <option name = "bln">April
+                <option name = "bln">Mei
+                <option name = "bln">Juni
+                <option name = "bln">Agustus
+                <option name = "bln">September
+                <option name = "bln">Oktober
+                <option name = "bln">November
+                <option name = "bln">Desember
+            </select>
+            <select name="thn">
+                <option name = "thn">2000
+                <option name = "thn">2001
+                <option name = "thn">2002
+                <option name = "thn">2003
+                <option name = "thn">2004
+                <option name = "thn">2005
+                <option name = "thn">2006
+                <option name = "thn">2007
+            </select>
+            </td>
+        </tr>
+        <!-- Form Input Type Text Area -->
+        <tr>
+            <td>Alamat</td>
+            <td>: </td>
+            <td><textarea name="alamat"></textarea></td>
+        </tr>
+        <!-- Form Input Type CheckBox -->
+        <tr>
+            <td>Hobi (minimal 1)</td>
+            <td>: </td>
+            <td>
+                <input type = "checkbox" name = "hobby1" value = "Membaca"> Membaca </b>
+                <input type = "checkbox" name = "hobby2" value = "Olahraga"> Olahraga </b>
+                <input type = "checkbox" name = "hobby3" value = "Melukis"> Melukis </b>
+                <input type = "checkbox" name = "hobby4" value = "Menulis"> Menulis </b>
+                <input type = "checkbox" name = "hobby5" value = "Fotografi"> Fotografi </b>
+                <input type = "checkbox" name = "hobby6" value = "Gaming"> Gaming </b>
+                <input type = "checkbox" name = "hobby7" value = "Traveling"> Traveling </b>
+            </td>
+        </tr>
+        <td>
+            <br>
+            <input type="submit" name="Button" id="Button" value="Tampil"/>
+        </td>
+    </form>
+    </table>
+</body>
+</html>
