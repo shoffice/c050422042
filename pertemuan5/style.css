@@ -1,0 +1,23 @@
+body {
+    text-align : center;
+    font-family : sans-serif;
+    margin-top: 20px;
+}
+
+a {
+    color: green;
+    text-decoration: underline;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 6px;
+    border: 1px solid;
+  }
+
+label{
+    font-size: 15px;
+}
+
+footer{
+    font-style: italic;
+}
